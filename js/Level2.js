@@ -362,7 +362,7 @@ Pacman.Level2.prototype = {
          stateText2.text=" Congratulations \n Click to play again";
          stateText2.visible = true;
          score=0;
-
+	 game.sound.stopAll();
     },
 
 
